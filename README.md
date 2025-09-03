@@ -2,7 +2,7 @@
 
 **AutoS3Uploader**
 
-A lightweight Bash script that automates the process of uploading files from an EC2 instance to an AWS S3 bucket.
+A lightweight Bash script that automates the process of uploading files or folders from an EC2 instance to an AWS S3 bucket.
 It allows users to either create a new bucket or use an existing one, checks AWS CLI installation and configuration, and securely uploads files or folders to the specified bucket.
 
 ## 🚀 Features
