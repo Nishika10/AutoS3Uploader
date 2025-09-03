@@ -68,8 +68,12 @@ main() {
 
     # Step 4: Upload from EC2
     read -p "Enter the full path of the file or folder on this EC2 instance: " file_path
+if [ -d "$file_path" ]; then
+    aws s3 cp "$file_path" s3://"$bucket_name" --recursive
+else
     aws s3 cp "$file_path" s3://"$bucket_name"
-    echo " Files uploaded successfully!"
+fi
+echo " Files uploaded successfully!"
 }
 
 
