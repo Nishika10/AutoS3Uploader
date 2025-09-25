@@ -71,6 +71,12 @@ You will be prompted to:
 - Managing AWS S3 buckets and file uploads programmatically.
 
 - Implementing error handling with set -euo pipefail for safer scripts.
+
+## ⚖️ License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
 ## 👩‍💻 Author
 **Nishika Jaiswal**  
 Aspiring Cloud & DevOps Engineer
